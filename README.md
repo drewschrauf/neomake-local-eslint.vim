@@ -1,10 +1,6 @@
-# neomake-local-eslint.vim
+# neomake-local-tslint.vim
 
-Prefer local repo install of eslint over global install with neomake
-
-Thanks to [@mtscout6](https://github.com/mtscout6) for the syntastic version as
-inspiration, and [@ohjames](https://github.com/ohjames) for performance
-improvements.
+Prefer local repo install of tslint over global install with neomake
 
 Installation Instructions
 -------------------------
@@ -12,12 +8,12 @@ Installation Instructions
 Using [vim plugged](https://github.com/junegunn/vim-plug) you just need to add the following to your vimrc:
 
 ```
-Plug 'benjie/neomake-local-eslint.vim'
+Plug 'drewschrauf/neomake-local-tslint.vim'
 ```
 
 Then open vim and run `:PlugInstall`
 
-Inspired By
------------
+Adapted From
+------------
 
-Inspired by http://blog.pixelastic.com/2015/10/05/use-local-eslint-in-syntastic/
+Adapted from [benjie/neomake-local-eslint.vim](https://github.com/benjie/neomake-local-eslint.vim)
